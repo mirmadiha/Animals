@@ -4,7 +4,7 @@ import AnimalShow from './AnimalShow'
 //function that returns a random animal
 
 function getRandomAnimal(){
-    const animals=['Cat','Giraffee','Camel','Horse','cow'];
+    const animals=['bird', 'cat', 'cow', 'dog', 'gator', 'horse'];
     const randomIndex=Math.floor(Math.random()*animals.length);
     return animals[randomIndex];
 };
